@@ -5,7 +5,6 @@
 using namespace std;
 
 void displayMemu();
-void dis();
 
 int main()
 {
