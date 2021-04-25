@@ -5,13 +5,20 @@
 using namespace std;
 
 void displayMemu();
+void dis();
 
 int main()
 {
+    //option for menu - initialize as zero and change later to avoid faults
     int userInput = 0;
 
     while(userInput != 5)
     {
+        //show menu
+        displayMenu();
+
+        cin >> userInput;
+
        switch(userInput)
        {
            case 1:
@@ -36,7 +43,7 @@ int main()
 
             case 5:
             {
-                
+
             }
        } 
     }
